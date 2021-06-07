@@ -1,6 +1,10 @@
-import { Block } from "payload/types";
+import { Block } from 'payload/types';
 
-const Spacer: Block= {
+export type Type = {
+  size: 'small' | 'medium' | 'large'
+}
+
+const Spacer: Block = {
   slug: 'spacer',
   labels: {
     singular: 'Spacer',
