@@ -1,10 +1,18 @@
-import React from 'react';
+import React , {useEffect } from 'react';
 import type { AppProps } from 'next/app';
+import useStyles from '../css/app';
+const MyApp = ({ Component, pageProps }: AppProps): React.ReactElement => {
+  const classes = useStyles();
+  useEffect(() => {
+    const style = document.getElementById('server-side-styles');
 
-import '../css/style.css';
+    if (style) {
+      style.parentNode.removeChild(style);
+    }
+  }, []);
 
-const MyApp = ({ Component, pageProps }: AppProps): React.ReactElement => (
+return (
   <Component {...pageProps} />
 );
-
+}
 export default MyApp;
