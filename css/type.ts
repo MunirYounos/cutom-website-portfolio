@@ -31,4 +31,5 @@ lineHeight: base(2.25),
 export const body = {
 	fontSize: htmlFontSize,
 	lineHeight: base(1.5),
+	fontWeight: 300,
 }

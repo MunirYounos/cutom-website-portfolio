@@ -1177,10 +1177,26 @@
     react-animate-height "^2.0.16"
     react-transition-group "^4.3.0"
 
+"@faceless-ui/css-grid@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@faceless-ui/css-grid/-/css-grid-1.0.2.tgz#0e4438922855fa1e8c7aa20e8e74f7a87da12d31"
+  integrity sha512-9rWC/sBm64Um0yJ1jrLYXHW1Izu0SEzf35Ee4+UO0c+RnKiiRmNanrGEpzOo1OwF5caQ/CSwMGkUene+jG5Nkg==
+  dependencies:
+    "@faceless-ui/window-info" "^2.0.1"
+
 "@faceless-ui/modal@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@faceless-ui/modal/-/modal-1.1.2.tgz#2e1fb55014e50524af9d859f242f2dc75fd3757c"
   integrity sha512-u6yKc7I618U5lL3eVdMlRIHrriofmRXx8H1RL/KUEh4C9ASFPqQDn3GPQQ91sU5ZFYehOEQ743pHlAM53V9R/g==
+  dependencies:
+    body-scroll-lock "^3.1.5"
+    qs "^6.9.1"
+    react-transition-group "^4.3.0"
+
+"@faceless-ui/modal@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@faceless-ui/modal/-/modal-1.1.4.tgz#6e5c64104072a529117f9e5c02909afdccaaccef"
+  integrity sha512-ook5gJCHYhrsOxulCtgQnhMMwxzTWkGtHEdEDB2Wz7ov21M9UHHB/JeY87FNNj1630e/wjZagduOmdwEeZ7n3w==
   dependencies:
     body-scroll-lock "^3.1.5"
     qs "^6.9.1"
@@ -1195,6 +1211,11 @@
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@faceless-ui/window-info/-/window-info-1.2.4.tgz#0b54298307b1975192f4045e92c7bd0709765400"
   integrity sha512-dIzc/ZzkD+Ld6u1yeG42GOyPmc9KKanPJApICb4Z4APvqOXac/a72KiIhqMylPwz5STu36rtB0zXa4rk+bRPXw==
+
+"@faceless-ui/window-info@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@faceless-ui/window-info/-/window-info-2.0.1.tgz#2462ee5416d796e8ed46b634c0732e37bdd38a98"
+  integrity sha512-ax0w2lJVPSpMjGIZJznyXmnbFnDWfSgwYT45BCS7MlOGl9wJfFSlfWyn8UWWxCaghhUuH9SoDLNL0LQ575ygmg==
 
 "@fluentui/dom-utilities@^1.1.1":
   version "1.1.1"

@@ -10,6 +10,7 @@ const defaultTitle = 'Payload CMS + NextJS Custom Server';
 const titleSuffix = ' | Payload CMS';
 const defaultOGImage = `${SERVER_URL}/images/og-image.jpg`;
 const defaultKeywords = 'NextJS, Payload CMS, boilerplate';
+const manRopeFont = 'https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap';
 
 type Props = {
   title?: string,
@@ -80,6 +81,7 @@ const Head: React.FC<Props> = ({ title, description, ogImage, keywords }) => {
         property="og:image"
         content={ogImage || defaultOGImage}
       />
+      <link rel="stylesheet" href={manRopeFont} />
     </NextHead>
   );
 };
